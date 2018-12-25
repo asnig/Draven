@@ -1,0 +1,153 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+body {
+    background-color: #F4F4F4;
+    width: 1903px;
+}
+/***************************************************************************
+*头部部分样式
+***************************************************************************/
+
+#header {
+    width: 100%;
+    background-color: #383838;
+}
+
+#header_content {
+    width: 1000px;
+    height: 110px;
+    margin: 0 auto;
+}
+
+#logo {
+    float: left;
+    margin-left: 50px;
+}
+
+/*********************************************************************************
+*导航栏部分样式
+***********************************************************************************/
+#wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#nav_content {
+    width: 1000px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+#nav_left {
+    width: 10px;
+    height: 40px;
+    background: url(../images1/nav_left.jpg) no-repeat;
+    float: left;
+}
+
+#nav_mid {
+    width: 980px;
+    height: 40px;
+    background: url(../images1/nav_bg.jpg) repeat-x;
+    float: left;
+}
+
+#nav_mid_left {
+    width: 650px;
+    height: 40px;
+    float: left;
+}
+
+#nav_mid_left li {
+    list-style-type: none;
+    float: left;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    text-align: center;
+}
+
+#nav_mid_left a:link,
+#nav_mid_left a:visited {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-family: 微软雅黑;
+}
+
+#nav_mid_left a:hover,
+#nav_mid_left a:active {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: #e9c06c;
+}
+
+#nav_mid_right {
+    width: 300px;
+    height: 40px;
+    float: left;
+}
+
+.search_text {
+    width: 200px;
+    height: 25px;
+    margin-top: 5px;
+    background: url(../images1/search.jpg) no-repeat right center;
+    background-color: white;
+    padding-right: 25px;
+    border: 1px solid gray;
+}
+
+#nav_right {
+    width: 10px;
+    height: 40px;
+    background: url(../images1/nav_right.jpg) no-repeat;
+    float: left;
+}
+#BackIntoHome {
+    float: right;
+    margin-right: 380px;
+}
+
+#BackIntoHome a:link,
+#BackIntoHome a:visited {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+#BackIntoHome a:hover,
+#BackIntoHome a:active {
+    color: #e9c06c;
+}
+#BackIntoHome img{
+    width: 30px;
+}
+/**********************************************************************************
+*Footer部分样式
+************************************************************************************/
+
+#footer {
+    width: 100%;
+    float: left;
+    background-color: #383838;
+}
+#footer_content{
+    width: 1000px;
+    height: 80px;
+    margin: 0 auto;
+}
+#footer p{
+    width: 1000px;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 25px;
+    color: white;
+}

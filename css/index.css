@@ -1,0 +1,361 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+body {
+    background-color: #F4F4F4;
+}
+
+
+
+/***************************************************************************
+*头部部分样式
+***************************************************************************/
+
+#header {
+    width: 100%;
+    background-color: #383838;
+}
+
+#header_content {
+    width: 1000px;
+    height: 110px;
+    margin: 0 auto;
+}
+
+#logo {
+    float: left;
+    margin-left: 50px;
+}
+
+
+/*********************************************************************************
+*导航栏部分样式
+***********************************************************************************/
+
+#wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#nav_content {
+    width: 1000px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+#nav_left {
+    width: 10px;
+    height: 40px;
+    background: url(../images1/nav_left.jpg) no-repeat;
+    float: left;
+}
+
+#nav_mid {
+    width: 980px;
+    height: 40px;
+    background: url(../images1/nav_bg.jpg) repeat-x;
+    float: left;
+}
+
+#nav_mid_left {
+    width: 650px;
+    height: 40px;
+    float: left;
+}
+
+#nav_mid_left li {
+    list-style-type: none;
+    float: left;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    text-align: center;
+}
+
+#nav_mid_left a:link,
+#nav_mid_left a:visited {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-family: 微软雅黑;
+}
+
+#nav_mid_left a:hover,
+#nav_mid_left a:active {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: #e9c06c;
+}
+
+#nav_mid_right {
+    width: 300px;
+    height: 40px;
+    float: left;
+}
+
+.search_text {
+    width: 200px;
+    height: 25px;
+    margin-top: 5px;
+    background: url(../images1/search.jpg) no-repeat right center;
+    background-color: white;
+    padding-right: 25px;
+    border: 1px solid gray;
+}
+
+#nav_right {
+    width: 10px;
+    height: 40px;
+    background: url(../images1/nav_right.jpg) no-repeat;
+    float: left;
+}
+
+
+/**********************************************************************
+*图片部分样式
+************************************************************************/
+
+.pic img {
+    width: 1000px;
+    height: 500px;
+}
+
+
+
+/******************************************************************************
+*Main部分样式
+*******************************************************************************/
+
+#main {
+    height: 250px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.news {
+    width: 340px;
+}
+
+.pic_news {
+    line-height: 22px;
+    font-family: 微软雅黑;
+}
+
+.pic_news img,
+.pic_notice img {
+    width: 113px;
+    height: 88px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.pic_news a:link,
+.pic_news a:visited {
+    text-decoration: none;
+    color: #F1C85E;
+}
+
+
+.news_list {
+    padding: 0 5px;
+}
+
+.date {
+    font-size: 8px;
+    color: #999999;
+    float: right;
+}
+
+.news_list ul {
+    list-style-image: url(../images1/list.jpg);
+    list-style-position: inside;
+}
+
+.news_list li {
+    border-bottom: 1px dashed #e8e8e8;
+    line-height: 30px;
+}
+
+.news_list li a:link,
+.news_list li a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.news_list li a:hover,
+.news_list li a:active {
+    color: #F1C85E;
+}
+
+.notice {
+    width: 410px;
+    margin: 0 7px;
+}
+
+.notice p {
+    text-align: center;
+}
+
+.notice_list p a:link,
+.notice_list p a:visited {
+    text-decoration: none;
+    color: #F1C85E;
+    font-size: 22px;
+    font-family: 黑体;
+    font-weight: bold;
+}
+
+.notice_list ul li {
+    border-bottom: 1px dotted #999999;
+    list-style-type: none;
+    line-height: 35px;
+    padding-right: 5px;
+}
+
+.notice_list ul li a:link,
+.notice_list ul li a:visited {
+    text-decoration: none;
+    color: black;
+    font-size: 8px;
+    font-family: 微软雅黑;
+}
+
+.notice_list ul li a:hover,
+.notice_list ul li a:active {
+    color: #F1C85E;
+}
+
+.list_head {
+    font-size: 8px;
+    color: #999999;
+}
+
+.down {
+    width: 230px;
+}
+
+.music h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #F1C85E;
+    font-family: 黑体;
+}
+
+.music ul li {
+    list-style-type: none;
+    text-align: center;
+    font-family: 微软雅黑;
+    margin: 5px;
+    line-height: 22px;
+    border-radius: 8px;
+}
+
+.music ul li a:link,
+.music ul li a:visited {
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px dotted black;
+    color: black;
+    width: 220px;
+    height: 22px;
+    transition: font-size 1s;
+    -webkit-transition: font-size 1s;
+    -o-transition: font-size 1s;
+    -moz-transition: font-size 1s;
+}
+
+.music ul li a:hover,
+.music ul li a:active {
+    background-color: #F1C85E;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.news,
+.notice,
+.down {
+    float: left;
+    height: 250px;
+    border: 1px solid #E8E8E8;
+}
+
+.title {
+    height: 30px;
+    border-bottom: 2px solid #e8e8e8;
+}
+
+.title_left {
+    width: 70%;
+    float: left;
+    line-height: 30px;
+    padding-left: 20px;
+    font-family: 微软雅黑;
+    color: #F1C85E;
+}
+
+.title_right {
+    width: 20%;
+    float: right;
+    line-height: 30px;
+    text-align: center;
+}
+
+.title_right a:link,
+.title_right a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+#BackIntoHome {
+    float: right;
+    margin-right: 380px;
+}
+
+#BackIntoHome a:link,
+#BackIntoHome a:visited {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+#BackIntoHome a:hover,
+#BackIntoHome a:active {
+    color: #e9c06c;
+}
+
+#BackIntoHome img {
+    width: 30px;
+}
+
+
+/**********************************************************************************
+*Footer部分样式
+************************************************************************************/
+
+#footer {
+    width: 100%;
+    float: left;
+    background-color: #383838;
+}
+
+#footer_content {
+    width: 1000px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+#footer p {
+    width: 1000px;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 25px;
+    color: white;
+}
